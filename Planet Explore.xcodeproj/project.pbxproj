@@ -13,6 +13,18 @@
 		B471C60F283F42270063D2B6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C60E283F42270063D2B6 /* MainVC.swift */; };
 		B471C614283F422E0063D2B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B471C613283F422E0063D2B6 /* Assets.xcassets */; };
 		B471C617283F422E0063D2B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B471C615283F422E0063D2B6 /* LaunchScreen.storyboard */; };
+		B471C627283F48D20063D2B6 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C626283F48D20063D2B6 /* APIError.swift */; };
+		B471C629283F48FD0063D2B6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C628283F48FD0063D2B6 /* Constant.swift */; };
+		B471C62B283F55000063D2B6 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C62A283F55000063D2B6 /* Planet.swift */; };
+		B471C62D283F55BA0063D2B6 /* PlanetRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C62C283F55BA0063D2B6 /* PlanetRemoteService.swift */; };
+		B471C62F283F59D90063D2B6 /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C62E283F59D80063D2B6 /* PlanetViewModel.swift */; };
+		B471C632283F5CD50063D2B6 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C631283F5CD50063D2B6 /* LoaderView.swift */; };
+		B471C635283F5DAE0063D2B6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C634283F5DAE0063D2B6 /* UIView+Extension.swift */; };
+		B471C637283F5EE80063D2B6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C636283F5EE80063D2B6 /* ErrorView.swift */; };
+		B471C639283F5F2B0063D2B6 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C638283F5F2B0063D2B6 /* UIImage+Resize.swift */; };
+		B471C63B283F60F20063D2B6 /* PlanetItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C63A283F60F20063D2B6 /* PlanetItemView.swift */; };
+		B471C63D283F85140063D2B6 /* String+Capitalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C63C283F85140063D2B6 /* String+Capitalized.swift */; };
+		B471C63F283F90CC0063D2B6 /* PlanetDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C63E283F90CC0063D2B6 /* PlanetDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +37,18 @@
 		B471C613283F422E0063D2B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B471C616283F422E0063D2B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B471C618283F422E0063D2B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B471C626283F48D20063D2B6 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		B471C628283F48FD0063D2B6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B471C62A283F55000063D2B6 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		B471C62C283F55BA0063D2B6 /* PlanetRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRemoteService.swift; sourceTree = "<group>"; };
+		B471C62E283F59D80063D2B6 /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
+		B471C631283F5CD50063D2B6 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		B471C634283F5DAE0063D2B6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B471C636283F5EE80063D2B6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		B471C638283F5F2B0063D2B6 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		B471C63A283F60F20063D2B6 /* PlanetItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetItemView.swift; sourceTree = "<group>"; };
+		B471C63C283F85140063D2B6 /* String+Capitalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Capitalized.swift"; sourceTree = "<group>"; };
+		B471C63E283F90CC0063D2B6 /* PlanetDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailVC.swift; sourceTree = "<group>"; };
 		F88DEEED6F6D7B19236259A4 /* Pods-Planet Explore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planet Explore.release.xcconfig"; path = "Target Support Files/Pods-Planet Explore/Pods-Planet Explore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,14 +85,106 @@
 		B471C609283F42270063D2B6 /* Planet Explore */ = {
 			isa = PBXGroup;
 			children = (
-				B471C60A283F42270063D2B6 /* AppDelegate.swift */,
-				B471C60C283F42270063D2B6 /* SceneDelegate.swift */,
-				B471C60E283F42270063D2B6 /* MainVC.swift */,
-				B471C613283F422E0063D2B6 /* Assets.xcassets */,
-				B471C615283F422E0063D2B6 /* LaunchScreen.storyboard */,
+				B471C633283F5D890063D2B6 /* Extensions */,
+				B471C624283F488C0063D2B6 /* Service */,
+				B471C623283F465B0063D2B6 /* Resource */,
+				B471C622283F46540063D2B6 /* Startup */,
+				B471C621283F464D0063D2B6 /* Core */,
+				B471C620283F46400063D2B6 /* View */,
+				B471C61F283F46370063D2B6 /* ViewModel */,
+				B471C61E283F462D0063D2B6 /* Model */,
 				B471C618283F422E0063D2B6 /* Info.plist */,
 			);
 			path = "Planet Explore";
+			sourceTree = "<group>";
+		};
+		B471C61E283F462D0063D2B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B471C62A283F55000063D2B6 /* Planet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B471C61F283F46370063D2B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B471C62E283F59D80063D2B6 /* PlanetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B471C620283F46400063D2B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B471C630283F5CC40063D2B6 /* SubView */,
+				B471C60E283F42270063D2B6 /* MainVC.swift */,
+				B471C63E283F90CC0063D2B6 /* PlanetDetailVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B471C621283F464D0063D2B6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B471C625283F48AF0063D2B6 /* Exception */,
+				B471C628283F48FD0063D2B6 /* Constant.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B471C622283F46540063D2B6 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				B471C615283F422E0063D2B6 /* LaunchScreen.storyboard */,
+				B471C60A283F42270063D2B6 /* AppDelegate.swift */,
+				B471C60C283F42270063D2B6 /* SceneDelegate.swift */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		B471C623283F465B0063D2B6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B471C613283F422E0063D2B6 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B471C624283F488C0063D2B6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B471C62C283F55BA0063D2B6 /* PlanetRemoteService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B471C625283F48AF0063D2B6 /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				B471C626283F48D20063D2B6 /* APIError.swift */,
+			);
+			path = Exception;
+			sourceTree = "<group>";
+		};
+		B471C630283F5CC40063D2B6 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				B471C631283F5CD50063D2B6 /* LoaderView.swift */,
+				B471C636283F5EE80063D2B6 /* ErrorView.swift */,
+				B471C63A283F60F20063D2B6 /* PlanetItemView.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		B471C633283F5D890063D2B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B471C634283F5DAE0063D2B6 /* UIView+Extension.swift */,
+				B471C638283F5F2B0063D2B6 /* UIImage+Resize.swift */,
+				B471C63C283F85140063D2B6 /* String+Capitalized.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C30EB53489042F55C1EFBAE4 /* Pods */ = {
@@ -77,7 +193,6 @@
 				A83CA0D1DCF847AE800EA459 /* Pods-Planet Explore.debug.xcconfig */,
 				F88DEEED6F6D7B19236259A4 /* Pods-Planet Explore.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,9 +318,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B471C63B283F60F20063D2B6 /* PlanetItemView.swift in Sources */,
+				B471C62F283F59D90063D2B6 /* PlanetViewModel.swift in Sources */,
+				B471C629283F48FD0063D2B6 /* Constant.swift in Sources */,
+				B471C62D283F55BA0063D2B6 /* PlanetRemoteService.swift in Sources */,
 				B471C60F283F42270063D2B6 /* MainVC.swift in Sources */,
+				B471C63F283F90CC0063D2B6 /* PlanetDetailVC.swift in Sources */,
+				B471C627283F48D20063D2B6 /* APIError.swift in Sources */,
+				B471C639283F5F2B0063D2B6 /* UIImage+Resize.swift in Sources */,
+				B471C62B283F55000063D2B6 /* Planet.swift in Sources */,
+				B471C635283F5DAE0063D2B6 /* UIView+Extension.swift in Sources */,
+				B471C63D283F85140063D2B6 /* String+Capitalized.swift in Sources */,
 				B471C60B283F42270063D2B6 /* AppDelegate.swift in Sources */,
 				B471C60D283F42270063D2B6 /* SceneDelegate.swift in Sources */,
+				B471C632283F5CD50063D2B6 /* LoaderView.swift in Sources */,
+				B471C637283F5EE80063D2B6 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
