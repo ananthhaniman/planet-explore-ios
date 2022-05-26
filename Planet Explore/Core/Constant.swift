@@ -22,6 +22,13 @@ struct Constant{
         }
         return .white
     }()
+    
+    static let sectionColor:UIColor = {
+        if #available(iOS 13.0, *) {
+            return .secondarySystemBackground
+        }
+        return .gray
+    }()
     static let secounderyTextColor:UIColor = .gray
     static let primaryColor:UIColor = .systemOrange
 }

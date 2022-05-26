@@ -9,7 +9,7 @@ import UIKit
 
 extension UIImage {
     
-    // MARK: - Compont from UiImage and extent the class and achived image resize funtionalities.(there is no defalult image resize funtionality for resizing image)
+    // MARK: - Compont from UIImage and extent the class and achived image resize funtionalities.(there is no defalult image resize funtionality for resizing image)
     /// `resized()` source from https://stackoverflow.com/questions/31314412/how-to-resize-image-in-swift
     func resized(to newSize: CGSize) -> UIImage {
         return UIGraphicsImageRenderer(size: newSize).image { _ in

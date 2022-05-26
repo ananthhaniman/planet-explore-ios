@@ -25,6 +25,7 @@
 		B471C63B283F60F20063D2B6 /* PlanetItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C63A283F60F20063D2B6 /* PlanetItemView.swift */; };
 		B471C63D283F85140063D2B6 /* String+Capitalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C63C283F85140063D2B6 /* String+Capitalized.swift */; };
 		B471C63F283F90CC0063D2B6 /* PlanetDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C63E283F90CC0063D2B6 /* PlanetDetailVC.swift */; };
+		B471C641283FA6790063D2B6 /* PlanetInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471C640283FA6790063D2B6 /* PlanetInfoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		B471C63A283F60F20063D2B6 /* PlanetItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetItemView.swift; sourceTree = "<group>"; };
 		B471C63C283F85140063D2B6 /* String+Capitalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Capitalized.swift"; sourceTree = "<group>"; };
 		B471C63E283F90CC0063D2B6 /* PlanetDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailVC.swift; sourceTree = "<group>"; };
+		B471C640283FA6790063D2B6 /* PlanetInfoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetInfoItem.swift; sourceTree = "<group>"; };
 		F88DEEED6F6D7B19236259A4 /* Pods-Planet Explore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planet Explore.release.xcconfig"; path = "Target Support Files/Pods-Planet Explore/Pods-Planet Explore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,6 +175,7 @@
 				B471C631283F5CD50063D2B6 /* LoaderView.swift */,
 				B471C636283F5EE80063D2B6 /* ErrorView.swift */,
 				B471C63A283F60F20063D2B6 /* PlanetItemView.swift */,
+				B471C640283FA6790063D2B6 /* PlanetInfoItem.swift */,
 			);
 			path = SubView;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				B471C60B283F42270063D2B6 /* AppDelegate.swift in Sources */,
 				B471C60D283F42270063D2B6 /* SceneDelegate.swift in Sources */,
 				B471C632283F5CD50063D2B6 /* LoaderView.swift in Sources */,
+				B471C641283FA6790063D2B6 /* PlanetInfoItem.swift in Sources */,
 				B471C637283F5EE80063D2B6 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
