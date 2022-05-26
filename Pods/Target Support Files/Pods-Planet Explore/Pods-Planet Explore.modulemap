@@ -1,0 +1,6 @@
+framework module Pods_Planet_Explore {
+  umbrella header "Pods-Planet Explore-umbrella.h"
+
+  export *
+  module * { export * }
+}
