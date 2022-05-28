@@ -10,25 +10,25 @@ import UIKit
 
 struct Constant{
     
-    static var backgroundColor:UIColor = {
+    static var backgroundColor:UIColor {
         if #available(iOS 13.0, *) {
             return .systemBackground
         }
         return .black
-    }()
-    static let primaryTextColor:UIColor = {
+    }
+    static var primaryTextColor:UIColor {
         if #available(iOS 13.0, *) {
             return .label
         }
         return .white
-    }()
+    }
     
-    static let sectionColor:UIColor = {
+    static var sectionColor:UIColor {
         if #available(iOS 13.0, *) {
             return .secondarySystemBackground
         }
         return .gray
-    }()
+    }
     static let secounderyTextColor:UIColor = .gray
     static let primaryColor:UIColor = .systemOrange
 }
